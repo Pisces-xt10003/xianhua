@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xianhua">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/h1"
+        android:label="鲜花商城"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmallShop">
+        <activity
+            android:name="com.example.xianhua.About"
+            android:exported="false" />
+        <activity
+            android:name="com.example.xianhua.MyInfo"
+            android:exported="false" />
+        <activity
+            android:name="com.example.xianhua.MyRecord"
+            android:exported="false" />
+        <activity
+            android:name="com.example.xianhua.Detail"
+            android:exported="false" />
+        <activity
+            android:name="com.example.xianhua.Register"
+            android:exported="false" />
+        <activity
+            android:name="com.example.xianhua.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.xianhua.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".js.AddMemoActivity"/>
+        <activity android:name=".js.MemoDetailActivity"/>
+    </application>
+
+</manifest>

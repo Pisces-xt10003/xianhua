@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SmallShop</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="flower_categories">
+        <item>玫瑰</item>
+        <item>向日葵</item>
+        <item>郁金香</item>
+        <item>百合</item>
+        <item>康乃馨</item>
+    </string-array>
+</resources>
